@@ -1,0 +1,97 @@
+body {
+  background-image: radial-gradient( circle 588px at 31.7% 40.2%,  rgba(225,200,239,1) 21.4%, rgba(163,225,233,1) 57.1% );
+  background-size: 100%;
+  margin: 0;
+}
+
+p.turno {
+  color: #424242;
+  font-family: "Architects Daughter", cursive;
+  font-size: 4vh;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 70vh;
+  height: 70vh;
+}
+
+div .cell {
+  height: 150px;
+  width: 150px;
+}
+
+@media (max-width: 600px) {
+  div .cell {
+    height: 125px;
+    width: 118px;
+  }
+  div svg {
+    font-size: 121px !important;
+  }
+  .MuiBox-root.css-1wnsr1i {
+    width: 70%;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 45vh;
+    height: 47vh;
+  }
+  .newMatch svg{
+    font-size: 18px !important;
+  }
+}
+
+div > svg {
+  font-size: 150px;
+  display: flex;
+  justify-content: center;
+}
+
+#cell2 {
+  border-right: 5px solid #424242;
+  border-left: 5px solid #424242;
+}
+
+#cell5 {
+  border-right: 5px solid #424242;
+  border-left: 5px solid #424242;
+}
+
+#cell8 {
+  border-right: 5px solid #424242;
+  border-left: 5px solid #424242;
+}
+
+#cell4 {
+  border-top: 5px solid #424242;
+  border-bottom: 5px solid #424242;
+}
+#cell6 {
+  border-top: 5px solid #424242;
+  border-bottom: 5px solid #424242;
+}
+
+#cell5 {
+  border-top: 5px solid #424242;
+  border-bottom: 5px solid #424242;
+}
+
+.btnHide{
+  display: none !important;
+}
